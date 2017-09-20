@@ -1,0 +1,11 @@
+.char-stat {
+  margin-bottom: 10px;
+}
+
+.stat-level, .stat-hp, .stat-money {
+  font-weight: bold;
+}
+
+.stat-value {
+  color: brown;
+}

@@ -1,0 +1,5 @@
+.game-action {
+  align-self: flex-end;
+  height: 20%;
+  border: 10px solid #222222;
+}
