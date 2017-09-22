@@ -5,7 +5,7 @@ class GameDisplay extends Component {
   render() {
     return (
       <div className="game-display">
-        Display changeant en fonction de la room (display de la room)
+        {this.props.roomType}
       </div>
     );
   }

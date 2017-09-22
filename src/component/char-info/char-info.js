@@ -7,11 +7,11 @@ class CharInfo extends Component {
   render() {
     return (
       <div className="char-info">
-        <CharLogo class={this.props.char.class} name={this.props.char.name} />
+        <CharLogo class={this.props.class} name={this.props.name} />
         <CharStat
-          level={this.props.char.level}
-          hp={this.props.char.hp}
-          money={this.props.char.money}
+          level={this.props.level}
+          hp={this.props.hp}
+          money={this.props.money}
         />
       </div>
     );
