@@ -1,8 +1,9 @@
 .game-log {
-  height: 60%;
+  height: 300px;
   border: 10px solid #222222;
   border-top: 0;
   border-right: 0;
+  overflow-y: scroll;
 }
 
 .game-log > ul {

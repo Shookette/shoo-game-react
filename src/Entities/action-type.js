@@ -2,5 +2,6 @@ export const ActionType = {
   rest: 'Rest',
   attack: 'Attack',
   open: 'Open',
-  continue: 'Continue'
+  continue: 'Continue',
+  skip: 'Skip',
 };

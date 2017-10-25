@@ -5,7 +5,8 @@ class GameDisplay extends Component {
   render() {
     return (
       <div className="game-display">
-        {this.props.roomType}
+        <h1>Etage : {this.props.level} - Salle {this.props.currentRoom + 1} / {this.props.nbRoom}</h1>
+        <h2>{this.props.roomType}</h2>
       </div>
     );
   }

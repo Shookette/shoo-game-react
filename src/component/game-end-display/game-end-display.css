@@ -1,0 +1,6 @@
+.game-end-display {
+  align-self: flex-end;
+  height: 100%;
+  border: 10px solid #222222;
+}
+

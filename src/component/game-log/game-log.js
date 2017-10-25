@@ -6,10 +6,8 @@ class GameLog extends Component {
   render() {
     var logsRows = [];
 
-    console.log('this.props.logs::', this.props.logs);
-
-    this.props.logs.forEach((log) => {
-      logsRows.push(<LogRow log={log} />);
+    this.props.logs.forEach((log, key) => {
+      logsRows.push(<LogRow key={key} log={log} />);
     });
 
     return (
